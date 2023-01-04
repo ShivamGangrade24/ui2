@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero-section {
+   background-color:  rgb(193, 213, 252);   
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 0px,150px;
+
+
+
+}
+.first-div{
+    height: 650px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Fira Sans Condensed', sans-serif; 
+    background-image: linear-gradient(rgb(247, 180, 180), rgb(125, 183, 250)); */
+
+}
+.first-div div{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 100px;
+    background-color: rgba(162, 215, 233, 0.31);
+}
+.first-div div h1{
+  
+    color: white;
+    font-size: 40px;
+
+
+}
+
+.first-div div p{
+    padding: 10px 0;
+    color: white;
+}
+.first-div span{
+    color: rgb(19, 21, 80)
+}
+
+.wssselcome-text {
+    display: none;
+}
+.second-div{
+height: 650px;
+width: 558px;
+background-color: white;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+padding: 0 70px;
+
+
+
+}
+
+
+
+
+.logo{
+    background-color: rgba(132, 132, 132, 0.082);
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 200px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form span{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    padding-top: 50px ;
+    font-weight: 800;
+}#p-1 {
+    font-size: 13px;
+    padding: 10px 0;
+    color: rgb(169, 165, 165);
+    font-weight: 400;
+}
+
+#p-2 {
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+#p-3 {
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+input {
+    height: 35px;
+    border-radius: 6px;
+    border: 2px solid grey;
+    outline: none;
+    color: rgb(31, 29, 29);
+    font-weight: 600;
+}
+
+.check-box {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 3px;
+    background: #0A4CCF;
+    background: linear-gradient(to right, #0A4CCF 34%, #CF15C9 82%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.check-box div {
+    padding: 5px 0;
+    width: 110px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.btn-div {
+    width: 350px;
+    text-align: center;
+}
+
+.login-btn {
+    padding: 10px 156px;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background: rgb(74, 244, 216);
+    background: linear-gradient(118deg, rgba(74, 244, 216, 1) 1%, rgba(46, 62, 200, 1) 45%, rgba(151, 42, 219, 1) 74%);
+    cursor: pointer;
+}
+
+
+
+.google-btn {
+    height: 40px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid rgba(164, 163, 163, 0.515);
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn-div p {
+    padding: 10px 0;
+}
+
+
+
+@media(max-width:768px) {
+
+    .hero-section {
+        height: auto;
+        padding: 0;
+    }
+
+    .first-div {
+        display: none;
+    }
+
+    .second-div {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .second-div nav {
+        display: block;
+    }
+
+    .welcome-text {
+        display: block;
+        font-size: 35px;
+        padding-left: 10px;
+        background: #CF21A1;
+        background: linear-gradient(to right, #CF21A1 0%, #24FF48 38%, #350ECF 89%);
+        /* -webkit-background-clip: text; */
+        -webkit-text-fill-color: transparent;
+
+
+    }
